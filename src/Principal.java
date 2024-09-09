@@ -16,6 +16,11 @@ public class Principal {
         curso1.setDescricao("Descricao Curso JavaScript");
         curso1.setCargaHoraria(4);
 
+        //Conteudo conteudo1 = new Curso(); podemos acessar as subclasses de uma classe abstrata, nunca diretamente.
+        //Conteudo conteudo2 = new Mentoria();
+        //List<String> palavras = new ArrayList<>();
+
+
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mrntoria java");
         mentoria.setDescricao("descricao mentoria java");
@@ -23,5 +28,6 @@ public class Principal {
 
         System.out.println(curso1);
         System.out.println(curso2);
+        System.out.println(mentoria);
     }
 }
